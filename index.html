@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="imagens/programacao.png" type="image/png">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="media-query.css">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <title>Higor Azevedo</title>
+</head>
+
+<body>
+  <header class="main-header">
+    <a href="index.html">
+      <h1 id="logo"> &lt HA / &gt</h1>
+    </a>
+    <nav>
+      <a href="#tecnologias" class="navButtons">Tecnologias</a>
+      <a href="#sobre" class="navButtons">Sobre mim</a>
+      <a href="#contato" class="navButtons">Contato</a>
+      <a href="https://github.com/HigorAzvedo" target="_blank" class="buttonProjeto">Projetos</a>
+    </nav>
+
+    <span id="burguer" class="material-symbols-outlined">
+      menu
+    </span>
+
+    <div id="menu-mobile" class="menu-mobile">
+      <span id="fechar" class="material-symbols-outlined">
+        close
+      </span>
+      <nav>
+        <ul>
+          <li><a href="#tecnologias" class="navButtons-mobile">Tecnologias</a></li>
+          <li><a href="#sobre" class="navButtons-mobile">Sobre mim</a></li>
+          <li><a href="#contato" class="navButtons-mobile">Contato</a></li>
+          <li><a target="_blank" href="https://github.com/HigorAzvedo" class="navButtons-mobile">Projetos</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section class="hero">
+      <h2>Olá ✌️, <br> meu nome é Higor Azevedo,<br> sou <strong>Desenvolvedor Front-end.</strong> <br>
+        <p class="texto">Faço alguns projetos para desenvolver minhas habilidades e continuar aprendendo mais e mais sobre tecnologia.
+        </p>
+      </h2>
+      <img src="image/fotoPerfil.jpeg" alt="Higor" id="fotoperfil">
+    </section>
+
+    <div id="tecnologias">
+      <h3>Tecnologias</h3>
+      <p>Tecnologias que já usei em meus projetos</p>
+      <div class="icones">
+        <img src="image/logo-html.svg" alt="HTML" class="icons">
+        <img src="image/logo-css.svg" alt="CSS" class="icons">
+        <img src="image/logo-js.svg" alt="JavaScript" class="icons">
+        <img src="image/logo-react.svg" alt="React" class="icons">
+        <img src="image/bootstrap.png" alt="Bootstrap" class="icons">
+        <img src="image/mysql.png" alt="SQL" class="icons">
+        <img src="image/logo-git.svg" alt="Git" class="icons">
+        <img src="image/github2.png" alt="GitHub" class="icons">
+        <img src="image/logo-python.png" alt="Python" class="icons">
+        <img src="image/logo-java.png" alt="Java" class="icons">
+      </div>
+    </div>
+
+    <div id="sobre">
+      <h3>Sobre mim</h3>
+      <div class="conteudoSobre">
+        <!-- <img src="" class="imgSobre"> -->
+        <p>
+          Formado no curso técnico em eletroeletrônica , onde tive minha primeira oportunidade como estagiário na área
+          de
+          elétrica e durante o curso tive meu primeiro contato com a linguagem de programação C++, que foi onde me
+          despertou o interesse em conhecer mais sobre a área de tecnologia.
+          No momento sou estudante de engenharia da computação na Faculdade Presidente Antônio Carlos (UNIPAC),
+          estudando
+          JavaScript, React, HTML, CSS e fazendo a criação de alguns projetos que estão no meu Github.
+        </p>
+      </div>
+    </div>
+
+    <div class="portfolio">
+      <h3>Projetos </h3>
+      <div class="flex">
+        <div class="projeto">
+          <div class="img-port" style="background-image:url('./image/netflix.jpeg')">
+            <div class="overlay"> Projeto Netflix</div>
+          </div>
+          <div class="descricao">
+            <h4>Clone Netflix</h4>
+            <p>Projeto criado mostrando os
+              filmes de cada categoria da Netflix, usando Javascript para fazer o consumo da API e
+              outras ferramentas como HTML e CSS para a estilização e Node para a criação de um
+              servidor local.</p>
+            <p><span>HTML, CSS, JavaScript e Node.</span></p>
+            <a class="link-projeto" href="https://github.com/HigorAzvedo/clone-netflix2.0" target="_blank">GitHub</a>
+            <a class="link-projeto" href="https://higorazvedo.github.io/clone-netflix2.0/" target="_blank">Projeto</a>
+          </div>
+        </div>
+        <div id="projeto2" class="projeto">
+          <div class="img-port" style="background-image: url(image/valen-port.jpeg);">
+            <div class="overlay"> Projeto Valen</div>
+          </div>
+          <div class="descricao">
+            <h4>Imobiliária Valen</h4>
+            <p>Site de uma empresa fictícia criado para
+              os alunos do curso de Administração </p>
+            <p><span>HTML, CSS, JavaScript.</span></p>
+            <a class="link-projeto" href="https://github.com/HigorAzvedo/imoveisValen" target="_blank">GitHub</a>
+            <a class="link-projeto" href="https://higorazvedo.github.io/imoveisValen/" target="_blank">Projeto</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="contato">
+      <h3>Contato</h3>
+      <p>Quer saber mais? Visite minhas redes e entre em contato comigo</p>
+      <div class="WrapperButtonsContato">
+        <a href="https://www.linkedin.com/in/higor-azevedo25" target="_blank" class="buttonContato">
+          <img src="image/linkedin.png">
+          LinkedIn
+        </a>
+        <a href="https://github.com/HigorAzvedo" target="_blank" class="buttonContato">
+          <img src="image/github2.png">
+          GitHub
+        </a>
+      </div>
+    </div>
+  </main>
+
+
+  <script src="script.js"></script>
+</body>
+
+</html>

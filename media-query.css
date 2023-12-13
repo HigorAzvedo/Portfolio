@@ -1,0 +1,107 @@
+/* Mobile */
+
+@media only screen and (max-width: 485px){
+    .menu-mobile > nav > ul{
+        margin-right: 160px;
+    }
+    
+    .hero {
+        align-items: center;
+        text-align: center;
+    }
+    
+    .hero > h2{
+        font-size: 25px;
+    }
+
+    .hero > h2 > strong{
+        font-size: 30px;
+    }
+    
+    #contato > p{
+        display: none;
+    }
+
+    .WrapperButtonsConta{
+        flex-direction: column;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 620px) {
+    .projeto{
+        flex-direction: column;
+    }
+
+    .img-port{
+        width: 400px;
+        height: 300px;
+    }
+        
+    .descricao{
+        text-align: center;
+    }
+
+    .descricao > p{
+        display: none;
+    }
+
+    #projeto2{
+        flex-direction: column;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 678px) {
+    .hero{
+        flex-direction: column-reverse;
+    }
+
+   .texto{
+        display: none;
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+    .navButtons, .buttonProjeto{
+        display: none;
+    }
+
+    #burguer{
+        display: block;
+        margin-right: 50px;
+    }
+
+    .main-header{
+        justify-content: space-around;
+    }
+
+    .main-header > a > h1{
+        width: 200px;
+        margin-left: 30px;
+    }
+
+    .icones{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (max-width: 992px) {
+
+    .descricao{
+        padding: 20px;
+    }
+
+    .icones{
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+    }
+
+}    
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {}
