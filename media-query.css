@@ -17,6 +17,18 @@
     .hero > h2 > strong{
         font-size: 30px;
     }
+
+    .icons{
+        margin: 12px;
+    }
+
+    .descricao{
+        width: 100%;
+    }
+
+    #contato{
+        width: 400px;
+    }
     
     #contato > p{
         display: none;
