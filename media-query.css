@@ -26,6 +26,11 @@
         width: 100%;
     }
 
+    .img-port{
+        width: 380px;
+        height: 280px;
+    }
+
     #contato{
         width: 400px;
     }
@@ -105,7 +110,7 @@
 @media only screen and (max-width: 992px) {
 
     .descricao{
-        padding: 20px;
+        padding: 10px;
     }
 
     .icones{

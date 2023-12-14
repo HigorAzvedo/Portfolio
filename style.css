@@ -24,7 +24,7 @@ span{
   align-items: center;
   margin: 0;
   padding: 20px;
-  background-color: #ffffffed;
+  background-color: #fffffff8;
   box-shadow: rgba(100, 100, 111, 0.341) 0px 7px 29px 0px;
   z-index: 2;
   position: sticky;
@@ -284,7 +284,6 @@ div.portfolio>h3 {
 
 .img-port:hover {
   background-position: 100% 100%;
-
 }
 
 .overlay {
@@ -309,7 +308,6 @@ div.portfolio>h3 {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-
 }
 
 .descricao {
