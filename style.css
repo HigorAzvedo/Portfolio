@@ -176,6 +176,7 @@ nav {
   justify-content: space-evenly;
   align-items: center;
   background-color: #5c65e015;
+  /* height: 650px; */
 }
 
 .hero h2 {
