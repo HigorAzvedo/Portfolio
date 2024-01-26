@@ -15,7 +15,7 @@
 <body>
   <header class="main-header">
     <a href="index.html">
-      <h1 id="logo"> &lt HA / &gt</h1>
+      <h2 id="logo"> &lt HA / &gt</h2>
     </a>
     <nav>
       <a href="#tecnologias" class="navButtons">Tecnologias</a>
@@ -45,34 +45,78 @@
 
   <main>
 
-    <section class="hero">
-      <h2>Olá ✌️, <br> meu nome é Higor Azevedo,<br> sou <strong>Desenvolvedor Front-end.</strong> <br>
+    <section class="apresentacao">
+      <div class="apresentacao-conteudo">
+        <h1>Olá ✌️, <br> meu nome é Higor Azevedo,   <br> sou <strong>Desenvolvedor Front-end.</strong> <br>
+        </h1>
         <p class="texto">Faço alguns projetos para desenvolver minhas habilidades e continuar aprendendo mais e mais sobre tecnologia.
         </p>
-      </h2>
-      <img src="image/fotoPerfil.jpeg" alt="Higor" id="fotoperfil">
+
+        <div class="apresentacao-links">
+          <a class="links link-hover-linkedin" href="https://www.linkedin.com/in/higor-azevedo25" target="_blank">
+            <img src="image/linkedin.png" alt="">
+            LinkedIn
+          </a>
+          <a class="links link-hover-github" href="https://github.com/HigorAzvedo" target="_blank">
+            <img src="image/github2.png" alt="">
+            GitHub
+          </a>
+        </div>
+
+      </div>
+      <img src="image/fotoPerfil.jpeg" alt="Higor" class="fotoperfil">
     </section>
 
     <div id="tecnologias">
       <h3>Tecnologias</h3>
-      <p>Tecnologias que estou estudando.</p>
-      <div class="icones">
-        <img src="image/logo-html.svg" alt="HTML" class="icons">
-        <img src="image/logo-css.svg" alt="CSS" class="icons">
-        <img src="image/logo-js.svg" alt="JavaScript" class="icons">
-        <img src="image/logo-react.svg" alt="React" class="icons">
-        <img src="image/bootstrap.png" alt="Bootstrap" class="icons">
-        <img src="image/mysql.png" alt="SQL" class="icons">
-        <img src="image/logo-git.svg" alt="Git" class="icons">
-        <img src="image/github2.png" alt="GitHub" class="icons">
-        <img src="image/logo-python.png" alt="Python" class="icons">
-        <img src="image/logo-java.png" alt="Java" class="icons">
+      
+      <div class="tecnologias-icones">
+        <a class="tecnologias-icones-links" href="">
+          <img src="image/logo-html.svg" alt="HTML" class="icons">
+          HTML
+        </a>
+        <a class="tecnologias-icones-links" href="">
+          <img src="image/logo-css.svg" alt="CSS" class="icons">
+          CSS
+        </a>
+        <a class="tecnologias-icones-links" href="">
+          <img src="image/logo-js.svg" alt="JavaScript" class="icons">
+          JavaScript
+        </a>
+        <a class="tecnologias-icones-links" href="">
+          <img src="image/logo-react.svg" alt="React" class="icons">
+          React
+        </a>
+        <a class="tecnologias-icones-links" href="">
+          <img src="image/bootstrap.png" alt="Bootstrap" class="icons">
+          Bootstrap
+        </a>
+        <a class="tecnologias-icones-links" href="">
+          <img src="image/mysql.png" alt="SQL" class="icons">
+          SQL
+        </a>
+        <a class="tecnologias-icones-links" href="">
+          <img src="image/logo-git.svg" alt="Git" class="icons">
+          Git
+        </a>
+        <a class="tecnologias-icones-links" href="">
+          <img src="image/github2.png" alt="GitHub" class="icons">
+          GitHub
+        </a>
+        <a class="tecnologias-icones-links" href="">
+          <img src="image/logo-python.png" alt="Python" class="icons">
+          Python
+        </a>
+        <a class="tecnologias-icones-links" href="">
+          <img src="image/logo-java.png" alt="Java" class="icons">
+          Java
+        </a>
       </div>
     </div>
 
-    <div id="sobre">
+    <section id="sobre">
       <h3>Sobre mim</h3>
-      <div class="conteudoSobre">
+      <div class="conteudo-sobre">
         
         <p>
           Formado no curso técnico em eletroeletrônica , onde tive minha primeira oportunidade como estagiário na área
@@ -81,10 +125,10 @@
           despertou o interesse em conhecer mais sobre a área de tecnologia.
           No momento sou estudante de engenharia da computação na Faculdade Presidente Antônio Carlos (UNIPAC),
           estudando
-          <b>HTML, CSS, JavaScript, React, Bootstrap, SQL, Python, Java </b> e fazendo a criação de alguns projetos que estão no meu Github.
+          <span class="conteudo-sobre-span" >HTML, CSS, JavaScript, React, Bootstrap, SQL, Python, Java </span > e fazendo a criação de alguns projetos que estão no meu Github.
         </p>
       </div>
-    </div>
+    </section>
 
     <div class="portfolio">
       <h3>Projetos </h3>
@@ -100,12 +144,14 @@
               outras ferramentas como HTML e CSS para a estilização e Node para a criação de um
               servidor local.</p>
             <p><span>HTML, CSS, JavaScript e Node.</span></p>
-            <a class="link-projeto" href="https://github.com/HigorAzvedo/clone-netflix2.0" target="_blank">GitHub</a>
-            <a class="link-projeto" href="https://higorazvedo.github.io/clone-netflix2.0/" target="_blank">Projeto</a>
+            <div class="descricao-links">
+              <a class="link-projeto" href="https://github.com/HigorAzvedo/clone-netflix2.0" target="_blank">GitHub</a>
+              <a class="link-projeto" href="https://higorazvedo.github.io/clone-netflix2.0/" target="_blank">Projeto</a>
+            </div>
           </div>
         </div>
         <div id="projeto2" class="projeto">
-          <div class="img-port" style="background-image: url(image/valen-port.jpeg);">
+          <div class="img-port" style="background-image: url(image/imagem-valen.png);">
             <div class="overlay"> Projeto Valen</div>
           </div>
           <div class="descricao">
@@ -113,8 +159,10 @@
             <p>Site de uma empresa fictícia criado para
               os alunos do curso de Administração </p>
             <p><span>HTML, CSS, JavaScript.</span></p>
-            <a class="link-projeto" href="https://github.com/HigorAzvedo/imoveisValen" target="_blank">GitHub</a>
-            <a class="link-projeto" href="https://higorazvedo.github.io/imoveisValen/" target="_blank">Projeto</a>
+            <div class="descricao-links">
+              <a class="link-projeto" href="https://github.com/HigorAzvedo/imoveisValen" target="_blank">GitHub</a>
+              <a class="link-projeto" href="https://higorazvedo.github.io/imoveisValen/" target="_blank">Projeto</a>
+            </div>
           </div>
         </div>
       </div>

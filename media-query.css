@@ -1,28 +1,39 @@
 /* Mobile */
-
-@media only screen and (max-width: 526px){
+@media (max-width: 590px){
     .menu-mobile > nav > ul{
         margin-right: 180px;
     }
     
-    .hero {
-        align-items: center;
-        text-align: center;
-    }
-    
-    .hero > h2{
-        font-size: 25px;
+    .apresentacao {
+        gap: 40px;
     }
 
-    .hero > h2 > strong{
-        font-size: 30px;
+    
+    .apresentacao-conteudo > h1{
+        font-size: 1.4rem;
+    }
+
+    .apresentacao-conteudo > h1 strong{
+        font-size: 1.4rem;
     }
 
     .icons{
         margin: 12px;
     }
 
+    .conteudo-sobre p{
+        width: 100%;
+        height: 400px;
+        overflow-y: scroll;
+        
+    }
+
+    .portfolio{
+        margin: auto;
+    }
+
     .descricao{
+        align-items: center;
         width: 100%;
     }
 
@@ -32,6 +43,7 @@
     }
 
     #contato{
+        margin-top: 10%;
         width: 100%;
     }
     
@@ -68,17 +80,6 @@
     }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (max-width: 678px) {
-    .hero{
-        flex-direction: column-reverse;
-    }
-
-   .texto{
-        display: none;
-    }
-}
-
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (max-width: 768px) {
     .navButtons, .buttonProjeto{
@@ -94,26 +95,51 @@
         justify-content: space-around;
     }
 
-    .main-header > a > h1{
+    .main-header > a > h2{
         width: 200px;
         margin-left: 30px;
+    }
+
+    .conteudo-sobre{
+        width: auto;
     }
 
     .icones{
         display: grid;
         grid-template-columns: auto auto auto auto auto;
     }
+
+    .projeto{
+        gap: 40px;
+    }
+
+    .descricao{
+        gap: 15px;
+    }
 }
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 992px) {
+@media only screen and (max-width: 1000px) {
 
-    .descricao{
-        padding: 10px;
+    .apresentacao{
+        flex-direction: column-reverse;
+        align-items: center;
     }
 
-    .icones{
+    .texto{
+        display: none;
+    }
+
+    .apresentacao-links{
+        justify-content: center;
+    }
+
+    .apresentacao h1 {
+        text-align: center;
+    }
+
+    .tecnologias-icones{
         display: grid;
         grid-template-columns: auto auto auto auto auto;
     }
@@ -121,4 +147,13 @@
 }    
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (max-width: 1200px) {}
+@media (max-width: 1350px) {
+
+    body{
+        margin: auto;
+    }
+
+    .fotoperfil{
+        width: 40%;
+    }
+}
