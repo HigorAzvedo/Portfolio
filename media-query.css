@@ -5,16 +5,23 @@
     }
     
     .apresentacao {
-        gap: 40px;
+        gap: 10px;
     }
 
-    
+    .fotoperfil{
+        width: 50%;
+    }
+
     .apresentacao-conteudo > h1{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
     }
 
     .apresentacao-conteudo > h1 strong{
-        font-size: 1.4rem;
+        font-size: 1.2rem;
+    }
+
+    .tecnologias-icones-links{
+        font-size: .8rem;
     }
 
     .icons{
@@ -24,8 +31,8 @@
     .conteudo-sobre p{
         width: 100%;
         height: 400px;
-        overflow-y: scroll;
-        
+        text-align: justify;
+        overflow-y: scroll;  
     }
 
     .portfolio{
@@ -137,6 +144,11 @@
 
     .apresentacao h1 {
         text-align: center;
+        font-size: 1.5rem;
+    }
+
+    .apresentacao-conteudo > h1 strong{
+        font-size: 1.5rem;
     }
 
     .tecnologias-icones{
@@ -151,9 +163,5 @@
 
     body{
         margin: auto;
-    }
-
-    .fotoperfil{
-        width: 40%;
     }
 }
