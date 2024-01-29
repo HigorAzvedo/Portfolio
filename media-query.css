@@ -1,24 +1,17 @@
 /* Mobile */
 @media (max-width: 590px){
-    .menu-mobile > nav > ul{
-        margin-right: 180px;
-    }
     
     .apresentacao {
         gap: 10px;
     }
 
-    .fotoperfil{
-        width: 50%;
-    }
-
-    .apresentacao-conteudo > h1{
-        font-size: 1.2rem;
+    /* .apresentacao-conteudo > h1{
+        font-size: 1rem;
     }
 
     .apresentacao-conteudo > h1 strong{
         font-size: 1.2rem;
-    }
+    } */
 
     .tecnologias-icones-links{
         font-size: .8rem;
@@ -95,16 +88,14 @@
 
     #burguer{
         display: block;
-        margin-right: 50px;
     }
 
     .main-header{
         justify-content: space-around;
     }
 
-    .main-header > a > h2{
+    #logo{
         width: 200px;
-        margin-left: 30px;
     }
 
     .conteudo-sobre{
@@ -127,41 +118,56 @@
 
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1016px) {
 
     .apresentacao{
         flex-direction: column-reverse;
         align-items: center;
     }
 
-    .texto{
-        display: none;
+    .fotoperfil{
+        width: 290px;
     }
 
     .apresentacao-links{
         justify-content: center;
     }
 
+    .apresentacao-conteudo{
+        width: auto;
+    }
+
     .apresentacao h1 {
         text-align: center;
-        font-size: 1.5rem;
+        font-size: 1.6rem;
     }
 
     .apresentacao-conteudo > h1 strong{
-        font-size: 1.5rem;
+        font-size: 1.6rem;
+    }
+
+    .tecnologias{
+       
     }
 
     .tecnologias-icones{
         display: grid;
         grid-template-columns: auto auto auto auto auto;
+        gap: 30px;
     }
 
+    .icons {
+        width: 40px;
+        margin: auto;
+    }
 }    
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media (max-width: 1350px) {
+@media (max-width: 1200px) {
 
-    body{
-        margin: auto;
+
+    .texto{
+        display: none;
     }
+
 }
