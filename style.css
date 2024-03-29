@@ -198,6 +198,22 @@ nav {
 
 /* Conteudo Principal */
 
+.botao-reload{
+  background-color: #5c63e0dd;
+  border-radius: 10px;
+  z-index: 1;
+  position: fixed;
+  right: 10px;
+  bottom: 10px;
+  border: 2px solid #5c63e0;
+  padding: 5px 10px;
+
+}
+
+.botao-reload-span{
+  color: #F6F6F6;
+}
+
 .apresentacao {
   padding: 2% 10%;
   display: flex;
@@ -238,7 +254,7 @@ nav {
   color: #000000;
   border: 2px solid #5C63E0;
   border-radius: 10px;
-  padding: 1% 3%;
+  padding: 2% 3%;
   gap: 10px;
   text-align: center;
 }
@@ -446,11 +462,12 @@ h3 {
   background-color: #F6F6F6;
   border: 2px solid #5C63E0;
   border-radius: 10px;
+  font-weight: 500;
   
 }
 
 .link-projeto:hover {
-  background-color: #5c63e03d;
+  background-color: #1f232821;
   transition: .5s;
 }
 
